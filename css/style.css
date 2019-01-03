@@ -901,10 +901,9 @@ ul, li a {
       TESTIMONIALS SECTION
 -------------------------------*/
 .testimonials {
-  padding-top: 8rem;
+  padding: 8rem 0;
   background: url("../img/testimonials/1.jpg") center no-repeat;
   background-size: cover;
-  height: 80vh;
   position: relative;
   width: 100%;
   text-align: center;
@@ -1028,6 +1027,11 @@ ul, li a {
   }
   .footer__responsive:not(:last-child) {
     margin-bottom: 2rem; 
+  } 
+}
+@media (min-width: 64em) {
+  .footer {
+    padding: 5rem 3rem; 
   } 
 }
 
