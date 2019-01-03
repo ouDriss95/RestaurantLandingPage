@@ -787,7 +787,7 @@ ul, li a {
           MENU SECTION
 -------------------------------*/
 .menu {
-  padding-top: 18rem;
+  padding: 18rem 0;
   position: relative; 
 }
 @media (min-width: 56.25em) and (max-width: 64em) {
