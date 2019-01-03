@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>X-laz Restaurant Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Rancho" rel="stylesheet">
+
+	<!--Font Awsome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+
+	<!--Main Style-->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+	<!-- Start Hero -->
+	<section class="hero">
+
+		<!--Start Background Video-->
+		<div class="bg-video">
+			<video class="bg-video__content" autoplay muted loop>
+				<source src="img/hero-Pasta-Burrata.mp4" type="video/mp4">
+				<source src="img/hero-Pasta-Burrata.webm" type="video/webm">
+				<!--If The Browser Does not support Background Video This Message Will show up-->Your Browser Is Not Supported!!
+			</video>
+		</div>
+		<!--End Background Video-->
+
+		<!--Start Header-->
+		<header class="header">
+			<div class="container">
+
+				<!--Start Logo-->
+				<div class="logo">
+					<span class="logo--main">X-laz</span>
+					<span class="logo--sub">Restaurant</span>
+				</div>
+				<!--End Logo-->
+
+				<!--Start Navigation-->
+				<nav class="navigation">
+					<ul class="navigation__list">
+						<li class="navigation__item">
+							<a href="#services" class="navigation__link">services</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#testimonials" class="navigation__link">testimonials</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#events" class="navigation__link">events</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#book" class="navigation__link">reservation</a>
+						</li>
+					</ul>
+				</nav>
+				<!--End Navigation-->
+
+				<!--This Hamburger Menu Appears in Tablet & Phone Screens-->
+				<div class="hamburger">
+					<input type="checkbox" class="hamburger__checkbox" id="navi-toggle">
+
+					<label for="navi-toggle" class="hamburger__button">
+						<span class="hamburger__icon">&nbsp;</span>
+						<!--&nbsp; Means Empty-->
+					</label>
+
+					<div class="hamburger__background">&nbsp;</div>
+					<!--&nbsp; Means Empty-->
+
+					<nav class="hamburger__nav">
+						<ul class="hamburger__list">
+							<li class="hamburger__item"><a href="#" class="hamburger__link">SERVICES</a></li>
+							<li class="hamburger__item"><a href="#" class="hamburger__link">TESTIMONILAS</a></li>
+							<li class="hamburger__item"><a href="#" class="hamburger__link">EVENTS</a></li>
+							<li class="hamburger__item"><a href="#" class="hamburger__link">RESERVATION</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!--End Hamburger Menu-->
+
+			</div>
+		</header>
+		<!--End Header-->
+
+		<!--Start Text Hero-->
+		<div class="hero__text-box">
+			<h1 class="heading-primary">
+				<span class="heading-primary__title heading-primary--main">X-laz Restaurant is</span>
+				<span class="heading-primary__title heading-primary--sub">An Extraordinary Experience</span>
+			</h1>
+			<p class="hero__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisi luctus
+				felis consequat semper, dolor sit amet, consectetur adipiscin.
+			</p>
+
+			<a href="#menu" class="btn btn--green btn--animated">Discover Our Menu</a>
+		</div>
+		<!--End Text Hero-->
+	</section>
+	<!-- End Hero -->
+
+	<main>
+		<!--Start Info Section-->
+		<section class="info">
+			<div class="container">
+
+				<div class="row">
+					<!--"row" is a Grid System's Class-->
+					<div class="col-1-of-4">
+						<!--"col-1-of-4" is a Grid System's Class-->
+
+						<div class="info-box">
+							<i class="info-box__icon fas fa-map-marker-alt"></i>
+							<h4 class="heading-quaternary u-small-letter-spacing u-margin-bottom-extra-small">Address</h4>
+							<p class="info-box__text">
+								<span class="info-box__text--detail">198 West 21th Street, Suite
+								</span>
+								<span class="info-box__text--detail">721 New York NY 10016
+								</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4">
+						<!--"col-1-of-4" is a Grid System's Class-->
+
+						<div class="info-box">
+							<i class="info-box__icon far fa-clock"></i>
+							<h4 class="heading-quaternary u-small-letter-spacing u-margin-bottom-extra-small">Opening Time</h4>
+							<p class="info-box__text">
+								<span class="info-box__text--detail">Monday - Sunday
+								</span>
+								<span class="info-box__text--detail">8am - 9pm
+								</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4">
+						<!--"col-1-of-4" is a Grid System's Class-->
+
+						<div class="info-box">
+							<i class="info-box__icon fas fa-phone"></i>
+							<h4 class="heading-quaternary u-small-letter-spacing u-margin-bottom-extra-small">Phone</h4>
+							<p class="info-box__text">
+								<span class="info-box__text--detail">+ 001 234 567
+								</span>
+								<span class="info-box__text--detail">+ 001 234 567
+								</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4">
+						<!--"col-1-of-4" is a Grid System's Class-->
+
+						<div class="info-box">
+							<i class="info-box__icon far fa-envelope"></i>
+							<h4 class="heading-quaternary u-small-letter-spacing u-margin-bottom-extra-small">Email</h4>
+							<p class="info-box__text">
+								<span class="info-box__text--detail">info@domain.com
+								</span>
+								<span class="info-box__text--detail">x-laz@ouDriss.com
+								</span>
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Info Section-->
+
+		<!--Start About Section-->
+		<section class="about">
+
+			<div class="container">
+
+				<!--Start Main Title-->
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						<span class="heading-secondary--title">About Us</span>
+						<span class="heading-secondary--title">X-laz Restaurant</span>
+					</h2>
+				</div>
+				<!--End Main Title-->
+
+				<div class="row">
+					<div class="col-1-of-3">
+
+						<h3 class="heading-tertiary u-font-weight-light u-margin-top-small about__heading-responsive">Welcome to X-laz
+							Restaurant. Since 1948, Offering Traditional Dishes of the highest quality.</h3>
+
+					</div>
+
+					<div class="col-2-of-3">
+
+						<p class="about__paragraph about__paragraph-responsive">
+							Te sit stet labitur veritus, sea similique consetetur ut. Ne fastidii oportere usu. Iusto mediocrem iudicabit ea
+							eos, nemore offendit detraxit ei cum. Oblique conclusionemque qui cu, eum no sonet putant. Eos cu nulla vidisse.
+							Mazim oporteat eam ex, his ei audiam audire, affert corrumpit pri cu.
+						</p>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="wrapper">
+
+				<!--Start Left Arrow Icon-->
+				<a href="#">
+					<i class="wrapper__icon--left fas fa-angle-left"></i>
+				</a>
+				<!--End Left Arrow Icon-->
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col-2-of-4 about__img-responsive">
+							<div class="composition-about">
+								<img src="img/about-us/1.jpg" alt="photo1" class="composition-about__photo">
+							</div>
+						</div>
+
+						<div class="col-1-of-4 about__img-responsive">
+							<div class="composition-about">
+								<img src="img/about-us/2.jpg" alt="photo2" class="composition-about__photo">
+							</div>
+						</div>
+
+						<div class="col-1-of-4 about__img-responsive">
+							<div class="composition-about">
+								<img src="img/about-us/3.jpg" alt="photo3" class="composition-about__photo">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!--Start Right Arrow Icon-->
+				<a href="#">
+					<i class="wrapper__icon--right fas fa-angle-right"></i>
+				</a>
+				<!--End Right Arrow Icon-->
+
+			</div>
+		</section>
+		<!--End About Section-->
+
+		<!--Start Services Section-->
+		<section id="services" class="services">
+
+			<div class="container">
+
+				<!--Start Main Title-->
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						<span class="heading-secondary--title">Services</span>
+						<span class="heading-secondary--title">Our Main Focus</span>
+					</h2>
+				</div>
+				<!--End Main Title-->
+
+				<div class="row">
+					<div class="col-1-of-4 services__responsive">
+
+						<div class="services-box">
+							<div class="services-box__icon">
+								<img src="img/icons/cooking.svg" class="services-box__icon--p">
+							</div>
+							<h3 class="heading-tertiary u-margin-bottom-extra-small">Quality Cuisine</h3>
+							<p class="services-box__paragraph u-font-weight-light">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nonjfh heu be.
+							</p>
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4 services__responsive">
+
+						<div class="services-box">
+							<div class="services-box__icon">
+								<img src="img/icons/vegetables.svg" class="services-box__icon--p">
+							</div>
+							<h3 class="heading-tertiary u-margin-bottom-extra-small">Fresh Food</h3>
+							<p class="services-box__paragraph u-font-weight-light">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nonjfh heu be.
+							</p>
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4 services__responsive">
+
+						<div class="services-box">
+							<div class="services-box__icon">
+								<img src="img/icons/tray.svg" class="services-box__icon--p">
+							</div>
+							<h3 class="heading-tertiary u-margin-bottom-extra-small">Friendly Staff</h3>
+							<p class="services-box__paragraph u-font-weight-light">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nonjfh heu be.
+							</p>
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4 services__responsive">
+
+						<div class="services-box">
+							<div class="services-box__icon">
+								<img src="img/icons/booking.svg" class="services-box__icon--p">
+							</div>
+							<h3 class="heading-tertiary u-margin-bottom-extra-small">Easy Reservation</h3>
+							<p class="services-box__paragraph u-font-weight-light">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nonjfh heu be.
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Services Section-->
+
+		<!--Start Video Section-->
+		<section class="video">
+			<div class="video__wrapper">
+				<h2 class="video__heading-secondary">Food For The Soul</h2>
+				<div class="video__icon">
+					<i class="far fa-play-circle video__icon--p"></i>
+				</div>
+			</div>
+		</section>
+		<!--End Video Section-->
+
+		<!--Start Menu Section-->
+		<section id="menu" class="menu">
+			<div class="container">
+
+				<!--Start Main Title-->
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						<span class="heading-secondary--title">Discover</span>
+						<span class="heading-secondary--title">Our Menu</span>
+					</h2>
+				</div>
+				<!--End Main Title-->
+
+				<!--Start Navigation Menu-->
+				<nav class="navigation-menu u-margin-bottom-medium">
+					<ul class="navigation-menu__list">
+						<li class="navigation-menu__item active">
+							<a href="#" class="navigation-menu__link">Main</a>
+						</li>
+						<li class="navigation-menu__item">
+							<a href="#" class="navigation-menu__link">Desserts</a>
+						</li>
+						<li class="navigation-menu__item">
+							<a href="#" class="navigation-menu__link">Drinks</a>
+						</li>
+					</ul>
+				</nav>
+				<!--End Navigation Menu-->
+
+				<div class="row u-margin-bottom-extra-small">
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/1.jpg" class="menu-wrapper__img" alt="menu1">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+								<!--"&frasl;" means "slash" -->
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;29.99</div>
+					</div>
+
+					<div class="col-1-of-2 menu-wrapper">
+
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/2.jpg" class="menu-wrapper__img" alt="menu2">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+								<!--"&frasl;" means "slash" -->
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;19.99</div>
+					</div>
+				</div>
+
+				<div class="row u-margin-bottom-extra-small">
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/3.jpg" class="menu-wrapper__img" alt="menu3">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+								<!--"&frasl;" means "slash" -->
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;49.99</div>
+					</div>
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/4.jpg" class="menu-wrapper__img" alt="menu4">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;89.99</div>
+					</div>
+				</div>
+
+				<div class="row u-margin-bottom-extra-small">
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/5.jpg" class="menu-wrapper__img" alt="menu5">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;79.99</div>
+					</div>
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/6.jpg" class="menu-wrapper__img" alt="menu6">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;69.99</div>
+					</div>
+				</div>
+
+				<div class="row u-margin-bottom-extra-small">
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/7.jpg" class="menu-wrapper__img" alt="menu7">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;59.99</div>
+					</div>
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/8.jpg" class="menu-wrapper__img" alt="menu8">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;29.99</div>
+					</div>
+				</div>
+
+				<div class="row u-margin-bottom-extra-small">
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/9.jpg" class="menu-wrapper__img" alt="menu9">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;29.99</div>
+					</div>
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/10.jpg" class="menu-wrapper__img" alt="menu10">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;29.99</div>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/11.jpg" class="menu-wrapper__img" alt="menu11">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;29.99</div>
+					</div>
+
+					<div class="col-1-of-2 menu-wrapper">
+						<figure class="menu-wrapper__shape">
+							<img src="img/menu/12.jpg" class="menu-wrapper__img" alt="menu12">
+						</figure>
+						<div class="menu-wrapper__text">
+							<h5 class="heading-tertiary">Grilled Beef with potatoes</h5>
+							<div class="menu-wrapper__dot">...................................................................................................................................................................................................................</div>
+							<p class="menu__paragraph u-font-weight-light">
+								Meat &frasl; Potatoes &frasl; Rice &frasl; Tomato
+							</p>
+						</div>
+						<div class="menu-wrapper__price">&#36;29.99</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Menu Section-->
+
+		<!--Start Testimoials Section-->
+		<section id="testimonials" class="testimonials">
+			<div class="container">
+
+				<!--Start Main Title-->
+				<div class="u-center-text u-margin-bottom-medium">
+					<h2 class="heading-secondary">
+						<span class="heading-secondary--title">Testimonials</span>
+						<span class="heading-secondary--title u-color-white">Our Clients Say</span>
+					</h2>
+				</div>
+				<!--End Main Title-->
+
+				<p class="testimonials__paragraph u-margin-bottom-medium">
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tempor nulla, tristique
+					elementum massa. Proin pretium sodales turpis, sed gravida mi volutpat id. Integer pharetra semper
+					bibendum. Cras sit amet condimentum nunc. Nulla sit amet pulvinar quam."
+				</p>
+
+				<h5 class="heading-quaternary">
+					<span class="u-font-weight-bold">Sundar Pichai</span>
+					<span class="heading-quaternary--margin">&#124;</span>
+					<span class="u-font-weight-light">CEO, Google</span>
+				</h5>
+			</div>
+		</section>
+		<!--End Testimonials Section-->
+
+		<!--Start Events Section-->
+		<section id="events" class="events">
+			<div class="container">
+
+				<!--Start Main Title-->
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						<span class="heading-secondary--title">Special Events</span>
+						<span class="heading-secondary--title">Upcoming Events</span>
+					</h2>
+				</div>
+				<!--End Main Title-->
+
+				<div class="row u-margin-bottom-small">
+					<div class="col-2-of-3 events__img-responsive">
+						<figure class="composition-events">
+							<img src="img/events/1.jpg" alt="photo1" class="composition-events__img">
+
+							<figcaption class="composition-events__caption">
+								<a href="#popup" class="composition-events__link">
+									<h2>Party at the beach</h2>
+								</a>
+								<p>March 02, 2019 &#46; 3 comments</p>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-1-of-3 events__img-responsive">
+						<figure class="composition-events">
+							<img src="img/events/4.jpg" alt="photo1" class="composition-events__img">
+							<figcaption class="composition-events__caption">
+								<h2>90s Rap Night</h2>
+								<p>June 22, 2019 &#46; <br>13 comments</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1-of-3 events__img-responsive">
+						<figure class="composition-events">
+							<img src="img/events/2.jpg" alt="photo1" class="composition-events__img">
+							<figcaption class="composition-events__caption">
+								<h2>Believe in Magic</h2>
+								<p>Sep. 08, 2019 &#46; <br>18 comments</p>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-2-of-3 events__img-responsive">
+						<figure class="composition-events">
+							<img src="img/events/3.jpg" alt="photo1" class="composition-events__img">
+							<figcaption class="composition-events__caption">
+								<h2>Ugly Christmas Sweater Party</h2>
+								<p>Dec. 22, 2019 &#46; 3 comments</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Events Section-->
+
+		<!--Start Reservation Section-->
+		<section id="book" class="book">
+			<div class="container">
+
+				<!--Start Main Title-->
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						<span class="heading-secondary--title">Reservation</span>
+						<span class="heading-secondary--title">Book Your Table</span>
+					</h2>
+				</div>
+				<!--END Main Title-->
+
+				<!--Start Form-->
+				<form action="#" class="form">
+					<div class="row u-margin-bottom-extra-small">
+						<div class="col-1-of-2 form__responsive">
+							<div class="form__group">
+								<label for="name" class="form__label">Full name</label>
+								<input type="text" class="form__input" placeholder="name" required>
+							</div>
+						</div>
+
+						<div class="col-1-of-2">
+							<div class="form__group">
+								<label for="email" class="form__label">E-mail</label>
+								<input type="email" class="form__input" placeholder="email" required>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row u-margin-bottom-extra-small">
+						<div class="col-1-of-2 form__responsive">
+							<div class="form__group">
+								<label for="phone" class="form__label">Phone</label>
+								<input type="tel" class="form__input" placeholder="phone">
+							</div>
+						</div>
+
+						<div class="col-1-of-2">
+							<div class="form__group">
+								<label for="person" class="form__label">Persons</label>
+								<input type="text" class="form__input" placeholder="persons" required>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row u-margin-bottom-extra-small">
+						<div class="col-1-of-2 form__responsive">
+							<div class="form__group">
+								<label for="time" class="form__label">Time</label>
+								<input type="time" class="form__input" placeholder="time" required>
+							</div>
+						</div>
+						<div class="col-1-of-2">
+							<div class="form__group">
+								<label for="date" class="form__label">Date</label>
+								<input type="date" class="form__input" placeholder="date" required>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="form__button u-margin-bottom-extra-small">
+						<button class="btn btn--orange">Book a Table</button>
+					</div>
+				</form>
+				<!--End Form-->
+			</div>
+		</section>
+		<!--End Reservation Section-->
+	</main>
+
+	<!--Start Footer-->
+	<footer class="footer">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-3-of-4 footer__responsive">
+					<p class="footer__paragraph">
+						Copyright ©2019 All rights reserved &#124; This html template is made by <a href="https://www.behance.net/unbreakabl16d0"
+						 class="footer__link" target="_blank">Driss OUDMINE</a>. Icons made by <a href="https://www.flaticon.com/" class="footer__link"
+						 target="_blank">www.flaticon.com</a>
+					</p>
+				</div>
+
+				<div class="col-1-of-4 footer__responsive">
+					<div class="footer__box">
+						<div class="footer__icon">
+							<a href="#"><img src="img/icons/twitter-logo-silhouette.svg" class="footer__icon--img" alt="twitter logo"></a>
+						</div>
+
+						<div class="footer__icon">
+							<a href="#"><img src="img/icons/youtube-logo.svg" class="footer__icon--img" alt="youtube logo"></a>
+						</div>
+
+						<div class="footer__icon">
+							<a href="#"><img src="img/icons/instagram-logo.svg" class="footer__icon--img" alt="instagram logo"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--End Footer-->
+
+	<!--Start Popup-->
+	<div class="popup" id="popup">
+		<div class="popup__content">
+			<div class="popup__left">
+				<img src="img/events/1.jpg" alt="event photo" class="popup__img">
+			</div>
+
+			<div class="popup__right">
+				<a href="#events" class="popup__close">&times;</a>
+				<!--"&times;" Means Close Icon-->
+				<h3 class="heading-tertiary u-margin-bottom-extra-small">Party at the beach</h3>
+				<h4 class="heading-quaternary u-margin-bottom-extra-small u-font-weight-light">March 02, 2019</h4>
+				<p class="popup__paragraph u-margin-bottom-small">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue
+					felis,
+					facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat est consequat eu.
+					Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo. Praesent dui sapien, bibendum quis tempus dictum,
+					auctor ac dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Cura
+				</p>
+				<a href="#book" class="btn btn--orange">Book Now</a>
+			</div>
+		</div>
+	</div>
+	<!--End Popup-->
+
+	<!--<section class="grid-system">
+        <div class="row">
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+                Col 2 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-2-of-4">
+                Col 2 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-3-of-4">
+                Col 3 of 4
+            </div>
+        </div>
+    </section>-->
+
+
+</body>
+
+</html>
