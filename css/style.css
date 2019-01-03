@@ -14,19 +14,19 @@ html {
   scroll-behavior: smooth; 
 }
 
-@media (max-width: 75em) {
+@media (max-width: 75em) /*75em == 1200px*/ {
   html {
     font-size: 56.25%; 
   } 
 }
 
-@media (max-width: 56.25em) {
+@media (max-width: 56.25em) /*56.25em == 900px*/ {
   html {
     font-size: 50%; 
   } 
 }
 
-@media (max-width: 37.5em) {
+@media (max-width: 37.5em) /*37.5em == 600px*/ {
   html {
     font-size: 40%;
   } 
