@@ -822,7 +822,7 @@ ul, li a {
 }
 @media (max-width: 37.5em) {
   .menu-wrapper {
-    padding: 0 3rem; 
+    padding: 0 1rem; 
   } 
 }
 
@@ -858,7 +858,7 @@ ul, li a {
 }
 @media (max-width: 37.5em) {
   .menu-wrapper__dot {
-    width: 65%;
+    width: 60%;
     margin-right: auto; 
   } 
 }
