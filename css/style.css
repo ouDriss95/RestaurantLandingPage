@@ -354,7 +354,7 @@ ul, li a {
     margin-top: 1rem; 
   } 
 }
-@media (min-width: 64em) {
+@media (min-width: 56.25em) and (max-width: 64em) {
   .hero .header .logo {
     padding-left: 3rem; 
   } 
@@ -382,7 +382,7 @@ ul, li a {
     display: none; 
   } 
 }
-@media (min-width: 64em) {
+@media (min-width: 56.25em) and (max-width: 64em) {
   .hero .header .navigation {
     padding-right: 3rem; 
   } 
@@ -596,7 +596,7 @@ ul, li a {
     padding-left: 2rem; 
   } 
 }
-@media (min-width: 64em) {
+@media (min-width: 56.25em) and (max-width: 64em) {
   .about__heading-responsive {
     padding-left: 2rem; 
   } 
@@ -613,7 +613,7 @@ ul, li a {
     padding-right: 2rem; 
   } 
 }
-@media (min-width: 64em) {
+@media (min-width: 56.25em) and (max-width: 64em) {
   .about__paragraph-responsive {
     padding-right: 2rem; 
   } 
@@ -790,7 +790,7 @@ ul, li a {
   padding-top: 18rem;
   position: relative; 
 }
-@media (min-width: 64em) {
+@media (min-width: 56.25em) and (max-width: 64em) {
   .menu {
     padding: 18rem 2rem; 
   } 
@@ -1029,7 +1029,7 @@ ul, li a {
     margin-bottom: 2rem; 
   } 
 }
-@media (min-width: 64em) {
+@media (min-width: 56.25em) and (max-width: 64em) {
   .footer {
     padding: 5rem 3rem; 
   } 
